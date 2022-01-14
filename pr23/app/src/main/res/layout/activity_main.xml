@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <TableRow>
+
+        <TextView
+            style="@style/textViewStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Вертикальное положение экрана"/>
+    </TableRow>
+    <TableRow
+        android:background="@color/red"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        style="@style/layoutStyleV">
+        <TextView
+
+            android:text="Каждый" />
+    </TableRow>
+    <TableRow
+        android:background="@color/orange"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        style="@style/layoutStyleV">
+        <TextView
+
+            android:text="Охотник" />
+    </TableRow>
+    <TableRow
+        android:background="@color/yellow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        style="@style/layoutStyleV">
+        <TextView
+
+            android:text="Желает" />
+    </TableRow>
+    <TableRow
+        android:background="@color/green"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        style="@style/layoutStyleV">
+        <TextView
+
+            android:text="Знать" />
+    </TableRow>
+    <TableRow
+        android:background="@color/azure"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        style="@style/layoutStyleV">
+        <TextView
+
+            android:text="Где" />
+    </TableRow>
+    <TableRow
+        android:background="@color/blue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        style="@style/layoutStyleV">
+        <TextView
+
+            android:text="Сидит" />
+    </TableRow>
+    <TableRow
+        android:background="@color/violet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        style="@style/layoutStyleV">
+        <TextView
+
+            android:text="Фазан" />
+    </TableRow>
+
+</TableLayout>

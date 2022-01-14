@@ -1,0 +1,19 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="tvTitle">
+        <!-- Customize your theme here. -->
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">#cd00cd</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:text">@string/title</item>
+    </style>
+    <style name="etStyle">
+        <!-- Customize your theme here. -->
+        <item name="android:layout_height">40dp</item>
+        <item name="android:layout_width">80dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:inputType">numberDecimal</item>
+    </style>
+</resources>

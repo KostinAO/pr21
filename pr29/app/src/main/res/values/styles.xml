@@ -1,0 +1,15 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="ImagePortrait">
+        <!-- Customize your theme here. -->
+        <item name="android:src">@drawable/ic_rounded_rect</item>
+        <item name="android:layout_margin">16dp</item>
+    </style>
+    <style name="ImageLandscape">
+        <!-- Customize your theme here. -->
+        <item name="android:src">@drawable/ic_oval</item>
+        <item name="android:layout_margin">32dp</item>
+    </style>
+
+</resources>
